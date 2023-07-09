@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fingerprints-recognition"
+version = "0.1.0"
+description = ""
+authors = ["Zeph1rr <grianton535@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fingerprints_recognition"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.8.0.74"
+fingerprint-enhancer = "^0.0.13"
+scikit-image = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
